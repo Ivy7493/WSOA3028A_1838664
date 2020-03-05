@@ -1,7 +1,7 @@
 
 
 
-let Development_Button = document.getElementsByClassName("Development_Button")[0];
+//let Development_Button = document.getElementsByClassName("Development_Button")[0];
 let Contact_Button = document.getElementsByClassName("Contact_Button")[0];
 
 Contact_Button.addEventListener("click",function(){
@@ -10,10 +10,10 @@ Contact_Button.addEventListener("click",function(){
     alert("Contact page");
 
 });
+//
+//Development_Button.addEventListener("click",function(){
 
-Development_Button.addEventListener("click",function(){
-
-    location.href = "blog.html";
-    alert("Blog page");
-});
+  //  location.href = "blog.html";
+    //alert("Blog page");
+//});
 
