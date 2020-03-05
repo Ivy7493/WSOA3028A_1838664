@@ -9,7 +9,7 @@ Contact_Button.addEventListener("click",function(){
     location.href = "contact.html";
     alert("Contact page");
 
-})
+});
 
 Development_Button.addEventListener("click",function(){
 
