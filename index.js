@@ -1,6 +1,6 @@
 
 let Development_Button = document.getElementsByClassName("Development_Button")[0];
-Development_Button.addEventListener("click",function(){location.href = "blog.html";});
+Development_Button.addEventListener("click",function(){location.href = "blogIndex.html";});
 
 let x = document.getElementsByClassName("Test")[0];
 x.addEventListener("click",function(){location.href = "contact.html";});
