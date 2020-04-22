@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+
+
+</head>
+
+<body bgcolor="#000000">
+
+<article>
+    <h1><center><font color = "#00ff00" size = 500 face = "Impact">Google maps embedding and Live-tracking illusion</font></center></h1>
+    <section>
+        <p><center><font color = "#00ff00">During developing my site. I needed to embed a map for a live tracking function. Of course, the live tracking part of the site was more fiction but the map was to be real. After doing some research I found that the best option was that of the google map. The google API allows google maps to be directly embedded into a website through a single line of HTML.
+        </font></center></p>
+        <p><center><font color = "#00ff00">According to the google API[1] documentation. The embedded map has different distribution kits for both pc, mac, android and ios. This means that the embedded map should function no matter which device the website is run on.
+        </font></center></p>
+        <p><center><font color = "#00ff00">To give the illusion of the character moving and the embedded map being “dynamic”. The map will be appended to the web-page through javascript. This, when combined with a time-seeded number generator, should give constant changing locations depending on the time. Ideally, this would be the best way to give off the fact that he isn’t stationary at one location at all times. Thus adding to the realism of the website and its believability.
+        </font></center></p>
+        <p><center><font color = "#00ff00">The problem with this approach is that. The person can only be seen in the locations hard-coded into the switch statement. Which if the site is used by a user frequently could lead the user to of the character being a bit static. At this point, I do not have a better solution to this problem and this should be more than adequate for creating the dynamic sense of motion for the average user. 
+        </font></center></p>
+        <p><center><font color = "#00ff00">
+            [1]Google Developers. 2020. Google Maps Platform FAQ  |  Google Developers. [online] Available at: <https://developers.google.com/maps/faq#startapi> [Accessed 22 April 2020].
+            </font></center></p>
+    </section>
+</article>
+
+<article>
+    <section>
+        <nav>
+            <center>
+                <button type = "button" id = "Back_Button" ><font size = 500 face = "Impact">Back</font></button>
+            </center>
+        </nav>
+    </section>
+</article>
+
+<script type = "module" src = "../../Blog.js" async ></script>
+    
+</body>
