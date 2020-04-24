@@ -1,7 +1,6 @@
 let Tracking = document.querySelector("#Live-tracking");
 let a =  Math.floor((Math.random() * 5) + 1);
 
-alert(a)
 if (a == 1){
     Tracking.innerHTML += "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.404725251236!2d28.042905814866728!3d-26.18350948344703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c3c4ebbc2a7%3A0x19124d946ff424e8!2s8%20Princess%20Pl%2C%20Parktown%2C%20Johannesburg%2C%202193!5e0!3m2!1sen!2sza!4v1585044391867!5m2!1sen!2sza' width='600' height='450' frameborder='0' style='border:0;' allowfullscreen='' aria-hidden='false' tabindex='0'></iframe>"
 
