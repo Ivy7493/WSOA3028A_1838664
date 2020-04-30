@@ -20,6 +20,10 @@ h1{
     text-align: center;
 }
 
+.CharacterDescription{
+    text-align: center;
+}
+
 .Description{
    
     display: block;
@@ -30,11 +34,7 @@ h1{
 }
 
 .ProfilePicture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 300pt;
+    width: 100%;
     border: 3pt solid #00ff00;
     
 }
