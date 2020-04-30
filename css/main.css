@@ -1,0 +1,62 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 45pt;
+    color: #00ff00;
+    
+}
+
+.PlaceHolder{
+    font-size: 15pt;
+    color: #00ff00;
+    text-align: center;
+}
+
+.Description{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+.ProfilePicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300pt;
+    border: 3pt solid #00ff00;
+    
+}
+
+.BoxDescription{
+    border: 3pt solid #00ff00;
+}
+
+h2{
+    text-align: center;
+    font-size: 35pt;
+    color: #00ff00;
+}
+
+p {
+    font-size: 15pt;
+    color: #00ff00;
+    line-height: 21pt;
+    text-align: justify;
+
+}
+
+.Navigation:hover{
+    color: hotpink;
+}

@@ -8,6 +8,7 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript,Fictional, Sureillance">
     <meta name="author" content="Ivan Von Staden">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <script type = "module" src = "index.js" async ></script>
     <script type = "module" src = "Live-tracking.js" async></script>
     
@@ -18,10 +19,10 @@
     <!--HEAD PORTRAIT SECTION OF CODE-->
     <title>South African Sureillance Department</title>
     <center><img height = 200 src = "Pictures/Coat.png" alt = "Fake goverment logo"></center>
-    <h1><center><font size = 600 color = "#00ff00" face = "Impact">Department of Domestic Dangers and threats</font></center></h1>
+    <h1>Department of Domestic Dangers and threats</h1>
    
 <article>
-    <section>
+    <section class = "Navigation">
         <nav>
             <center>
                 <button type = "button" id = "Home_Button" ><font size = 500 face = "Impact">Home page</font></button>
@@ -34,18 +35,24 @@
 </article>
    
     <article>
-        <h1><center><font color = "#00ff00" size = 200>Carter O'connor</font></center></h1>
-        <P><center><font color = "#00ff00">Place holder taken from thesepeopledontexist.com and its an AI generated portrait</font></center></P>  
-        <center><img height = 200 alt = "Profile shot" src = "Pictures/Profile.png"></center>
-        <p><center><font color = "#00ff00">Carter O’connor is a smart loner. He tends to avoid people as he doesn't really understand what makes them tick. He is very logical and academically gifted. He Obtained a Phd in Com sci before the age of 25. Carter lives alone in a reasonably sized apartment near the joburg CBD. His only real friend is his next door neighbour. A sweet old granny but he would never admit he likes her and tends to treat her like a childhood enemy. Connor’s moral code is a bit sketchy at best. Since he struggles with understanding people, he lacks a sense of empathy and as long as he comes out of a situation okay or bettered. He does not care who he hurts in the process.
+        <section>
+            <h1>Carter O'connor</h1>
+            <P class = "PlaceHolder">Place holder taken from thesepeopledontexist.com and its an AI generated portrait</P>  
+            <img class = "ProfilePicture" alt = "Profile shot" src = "Pictures/Profile.png">
+        </section>
+
+        <section class = "Description">
+            <p class = "BoxDescription">Carter O’connor is a smart loner. He tends to avoid people as he doesn't really understand what makes them tick. He is very logical and academically gifted. He Obtained a Phd in Com sci before the age of 25. Carter lives alone in a reasonably sized apartment near the joburg CBD. His only real friend is his next door neighbour. A sweet old granny but he would never admit he likes her and tends to treat her like a childhood enemy. Connor’s moral code is a bit sketchy at best. Since he struggles with understanding people, he lacks a sense of empathy and as long as he comes out of a situation okay or bettered. He does not care who he hurts in the process.
     
-            Carter has little to no family. His father died when he was 17, although they were never close. Carter’s only real family is his mom who is a successful doctor and is always busy. This left Carter a bit neglected in childhood leading to a lot of his social problems. Carter’s closest person would be his next door neighbour.
-        </font></center></p>
+                Carter has little to no family. His father died when he was 17, although they were never close. Carter’s only real family is his mom who is a successful doctor and is always busy. This left Carter a bit neglected in childhood leading to a lot of his social problems. Carter’s closest person would be his next door neighbour.
+            </p>
+        </section>
+      
 
     </article>
     <!--Threat metere section-->
     <article>
-        <h1><center><font size = 500 face = "Impact" color = "#00ff00">Threat Level</font></center></h1>
+        <h2>Threat Level</h2>
         <center><img width = 200 src = "Pictures/meter.gif" alt = "Threat meter"></center>
     
     </article>
@@ -53,7 +60,7 @@
     <article>
         
         <center>
-            <h1><font size = 500 face = "Impact" color = "#00ff00">Live Location Tracking</font></h1>
+            <h2>Live Location Tracking</h2>
         <section id = "Live-tracking">
             <!--Google map embedded-->
             
