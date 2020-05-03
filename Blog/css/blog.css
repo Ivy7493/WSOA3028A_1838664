@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+h1,h2{
+    text-align: center;
+    font-size: 35pt;
+    color: #00ff00;
+}
+
+
+
+p{
+
+    color: #00ff00;
+    text-align: justify;
+}
+
+section{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Back_Button{
+    text-align: center;
+    font-family: sans-serif;
+    color: #00ff00;
+    border: 1pt solid #00ff00;
+    background-color: black;
+    font-size: 35pt;
+}

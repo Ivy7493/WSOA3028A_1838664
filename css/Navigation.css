@@ -1,0 +1,13 @@
+.Nav_Button{
+    text-align: center;
+    font-family: sans-serif;
+    color: #00ff00;
+    border: 1pt solid #00ff00;
+    background-color: black;
+    font-size: 35pt; 
+}
+
+.Navigation{
+    background-color: #00ff00;
+    border: 6pt solid #00ff00;
+}
