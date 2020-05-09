@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body>
+    <Section>
+        <h1>Creating a progress bar</h1>
+    </Section>
+
+    <section>
+        <p>
+            
+            For the threat level section of the website. I wanted to create a dynamically filling progress bar that could present the perceived threat of the character to the government.  At first, I had no clue on how to do this. Some online resources suggested that I use a div as a container that you could shape into a progress bar.
+
+        </p>
+        <p>
+            For this, I created two nested section containers. The outer section container would act as the background of the bar and bar scaling factor. Now in CSS file, for the outer section, we set the background colour to white so it wouldn’t blend into the background of the website.  I also set the width of the container to be 50%, so the progress bar would be centred on the screen. For the inner loop, we set the font colour to black and gave the bar an appropriate height value.
+ 
+        </p>
+        <p>
+            For the functionality required we would need to use some js. To determine how filled I wanted to have the bar I used a random number range from 1 to 100. Since realistically someone's threat level would fluctuate over time, using a random number meant every time someone refreshed the page, that the bar would fill to a random level. So as to give off the illusion of dynamic threat levels. The inner progress bar’s width was then scaled to the random number while keeping the outer container constant. This gave the impression of a progress bar.
+
+        </p>
+
+        <p>
+            Now that the progress bar was functional I decided to add some polish. Firstly I looked up how to do time intervals so I could run code over and over to give a smooth glide effect to the bar. I found the command TimeInterval, this took in a function and a period. Every period the TimeInterval variable would trigger the give function. By doing this I could increment a variable value up to the randomly selected value in which the timeInterval would then terminate. To further add to the polish of the bar. I used a switch statement to colour “lerp” the bar. Since there was no built-in interpolation function to my knowledge. So I would switch the colour every certain threshold to give the bar a bit more visual meaning for the threat level.
+
+
+        </p>
+        
+        <h2>Reflection</h2>
+
+        <p>
+            through the creation of a progress bar, I have become a lot more comfortable with CSS, javascript and the premise behind their functions. I now understand that one can shape anything out of a container such as section using CSS and then add any desired function using javascript as the engine.  Animations for your CSS containers can be created using javascript and time interval events. The best way I can describe the interaction between javascript and CSS is the clique about the left and right brain. The left brain would be javascript, handling all the math and function timing etc. The CSS would be the right brain, which handles all the creative aspects of your site through design. The Html cam is seen as the corpus callosum, the section of the brain which connects the left and right sides together in order to create a person or in this case, a website.
+
+        </p>
+
+    </section>
+
+
+    <article>
+        <section>
+            <nav>
+              
+                    <button class = "Back_Button" type = "button" id = "Back_Button" >Back</button>
+                
+            </nav>
+        </section>
+    </article>
+
+    <script type = "module" src = "../../Blog.js" async ></script>
+</body>
