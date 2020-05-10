@@ -4,10 +4,17 @@
     color: #00ff00;
     border: 1pt solid #00ff00;
     background-color: black;
+    border-radius: 15px;
     font-size: 35pt; 
+}
+
+.Nav_Button:hover{
+    background-color: #00ff00;
+    color: black;
 }
 
 .Navigation{
     background-color: #00ff00;
     border: 6pt solid #00ff00;
+    border-radius: 15px;
 }
