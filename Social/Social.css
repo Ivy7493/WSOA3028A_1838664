@@ -13,6 +13,12 @@ h2{
 }
 
 
+.Test{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
 .Post{
     display: block;
     margin-left: auto;
