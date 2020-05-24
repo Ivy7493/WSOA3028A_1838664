@@ -59,11 +59,13 @@ h1{
 .ProfilePicture{
     width: 100%;
     border: 3pt solid #00ff00;
+    border-radius: 25px;
     
 }
 
 .BoxDescription{
     border: 3pt solid #00ff00;
+    border-radius: 25px;
 }
 
 h2{
