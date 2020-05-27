@@ -3,6 +3,25 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../../Pictures/Coat.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+html{
+    height: 100%;
 }
 
 

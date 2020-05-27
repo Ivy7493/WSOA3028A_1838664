@@ -3,6 +3,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    height: 100%;
+    background-color: black;
 
 }
 
@@ -63,9 +65,20 @@ h1{
     
 }
 
+.parallax {
+   
+    background-image: url("../Pictures/Coat.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+  }
+
 .BoxDescription{
     border: 3pt solid #00ff00;
     border-radius: 25px;
+    background-color: black;
 }
 
 h2{
