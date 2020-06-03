@@ -17,4 +17,6 @@
     background-color: #00ff00;
     border: 6pt solid #00ff00;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
 }
