@@ -26,11 +26,21 @@ h1{
 
 .CharacterDescription{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Centred{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .LabelBox{
 
-    width: 40%;
+    
     border: 3pt solid #00ff00;
     border-radius: 25px;
     text-align: center;
@@ -38,10 +48,10 @@ h1{
 
 .Description{
    
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
    
 }
 
@@ -49,6 +59,7 @@ h1{
     border: 3pt solid #00ff00;
     border-radius: 25px;
 }
+
 
 .Progress_Bar{
     height: 30px;
@@ -66,11 +77,10 @@ h1{
     height: 30px;
     border-radius: 25px;
     background-color: grey;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
 }
 
 .ProfilePicture{
@@ -113,4 +123,86 @@ p {
 
 .Navigation:hover{
     color: hotpink;
+}
+
+@media (min-width: 375px ) and (max-width: 767px){
+
+    .PlaceHolder{
+        font-size: 3vw;
+        color: #00ff00;
+        text-align: center;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 1em;
+        color: #00ff00;
+        background-color: black;
+    }
+
+    p {
+        font-size: 3vw;
+        color: #00ff00;
+        line-height: 4vw;
+        text-align: justify;
+    
+    }
+    .Map{
+        width: 20% !important;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    
+    .PlaceHolder{
+        font-size: 3vw;
+        color: #00ff00;
+        text-align: center;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
+
+    h2{
+        text-align: center;
+        font-size: 2em;
+        color: #00ff00;
+        background-color: black;
+    }
+
+    p {
+        font-size: 4vw;
+        color: #00ff00;
+        line-height: 4vw;
+        text-align: justify;
+    
+    }
+    .Map{
+        width: 20% !important;
+    }
+
+    .Centred{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }

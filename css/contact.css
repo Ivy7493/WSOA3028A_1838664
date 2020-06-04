@@ -28,3 +28,47 @@ p {
     width: 50%;
    
 }
+
+@media (min-width: 375px ) and (max-width: 991px){
+
+    p {
+        font-size: 5vw;
+        color: #00ff00;
+        line-height: 5vw;
+        text-align: center;
+    
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+    }
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+    p {
+        font-size: 5vw;
+        color: #00ff00;
+        line-height: 5vw;
+        text-align: center;
+    
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+    }
+
+}

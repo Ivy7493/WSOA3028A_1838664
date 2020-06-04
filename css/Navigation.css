@@ -5,7 +5,8 @@
     border: 1pt solid #00ff00;
     background-color: black;
     border-radius: 15px;
-    font-size: 35pt; 
+    font-size: 6vw; 
+
 }
 
 .Nav_Button:hover{
@@ -18,5 +19,55 @@
     border: 6pt solid #00ff00;
     border-radius: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+
+@media (min-width: 375px ) and (max-width: 767px){
+    .Navigation{
+        background-color: #00ff00;
+        border: 1pt solid #00ff00;
+        border-radius: 1vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        justify-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .Nav_Button{
+        text-align: center;
+        font-family: sans-serif;
+        color: #00ff00;
+        border: 1pt solid #00ff00;
+        background-color: black;
+        border-radius: 3vw;
+        font-size: 6vw; 
+    }
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .Navigation{
+        background-color: #00ff00;
+        border: 1vw solid #00ff00;
+        border-radius: 1vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    .Nav_Button{
+        text-align: center;
+        font-family: sans-serif;
+        color: #00ff00;
+        background-color: black;
+        font-size: 6vw; 
+    }
+
 }

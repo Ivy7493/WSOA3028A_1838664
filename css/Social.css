@@ -20,13 +20,6 @@ h2{
     padding: 20px;
 }
 
-.Post{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 3pt solid #00ff00;
-}
 
 p{
     font-size: 15pt;
@@ -46,4 +39,73 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.Bordered{
+    border: 3pt solid #00ff00;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+  
+}
+
+.Centred{
+   display: flex;
+   justify-content: center;
+}
+
+
+@media (min-width: 375px ) and (max-width: 991px){
+
+
+    .Tweet{
+        width: 75% !important;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    .Tweet{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 7vw;
+        color: #00ff00;
+        background-color: black;
+        flex-wrap: nowrap;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 7vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
 }

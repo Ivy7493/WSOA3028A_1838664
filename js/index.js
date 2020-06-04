@@ -5,6 +5,6 @@ Development_Button.addEventListener('click', ()=> location.href = "BlogIndex.htm
 let Home_Button = document.querySelector("#Home_Button");
 Home_Button.addEventListener("click",()=> location.href = "index.html");
 let Social_Button = document.querySelector('#Social_Button')
-Social_Button.addEventListener("click",()=> location.href = "Social/Social.html");
+Social_Button.addEventListener("click",()=> location.href = "Social.html");
  
 

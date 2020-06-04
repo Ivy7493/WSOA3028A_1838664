@@ -17,10 +17,19 @@ h1{
 
 .Post{
 
-    display: block;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: nowrap;
+}
+
+.Centred{
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .LabelBox{
@@ -37,6 +46,9 @@ h1{
 }
 
 .button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     border: 3pt solid #00ff00;
     border-radius: 25px;
     text-align: center;
@@ -57,11 +69,70 @@ a{
     background-color: black;
 }
 
+
+
 h2{
     text-align: center;
-    font-size: 35pt;
+    font-size: 3vw;
     color: #00ff00;
     background-color: black;
+
+}
+
+
+@media (min-width: 375px ) and (max-width: 767px){
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        background-color: black;
+    
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
+
+    a{
+        font-size: 1rem;
+       color: #00ff00;
+       line-height: 21pt;
+       text-align: center;
+       background-color: black;
+   }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    h2{
+        text-align: center;
+        font-size: 2em;
+        background-color: black;
+    
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        color: #00ff00;
+        background-color: black;
+       
+        
+    }
+
+    a{
+        font-size: 2rem;
+       color: #00ff00;
+       line-height: 21pt;
+       text-align: center;
+       background-color: black;
+   }
 
 }
 
