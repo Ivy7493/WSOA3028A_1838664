@@ -53,8 +53,9 @@ h1{
 }
 
 .Centred{
-   display: flex;
-   justify-content: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -87,9 +88,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
     .Tweet{
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
+        width: 75% !important;
     }
 
     h2{
