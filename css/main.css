@@ -34,8 +34,14 @@ h1{
 
 .Centred{
     width: 50%;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.CentredBox{
+    justify-content: center;
 }
 
 .LabelBox{
@@ -44,6 +50,15 @@ h1{
     border: 3pt solid #00ff00;
     border-radius: 25px;
     text-align: center;
+}
+
+.AgentLabelBox{
+
+    
+    border: 3pt solid #00ff00;
+    border-radius: 25px;
+    text-align: center;
+    background-color: black;
 }
 
 .Description{
@@ -58,6 +73,25 @@ h1{
 .Bordered{
     border: 3pt solid #00ff00;
     border-radius: 25px;
+}
+
+.AgentPicture{
+    width: 25%;
+    border: 5pt solid #00ff00;
+    border-radius: 15px;
+}
+
+.AgentBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.AgentBoxFont{
+    font: 3vw;
+
 }
 
 
@@ -84,7 +118,7 @@ h1{
 }
 
 .ProfilePicture{
-    width: 100%;
+    width: 75%;
     border: 3pt solid #00ff00;
     border-radius: 25px;
     
