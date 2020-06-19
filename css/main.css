@@ -58,6 +58,7 @@ h1{
     border: 3pt solid #00ff00;
     border-radius: 25px;
     text-align: center;
+    padding: 1vw;
     background-color: black;
 }
 
@@ -83,7 +84,7 @@ h1{
 
 .AgentBox{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     justify-items: center;
@@ -138,6 +139,7 @@ h1{
     border: 3pt solid #00ff00;
     border-radius: 25px;
     background-color: black;
+    padding: 1vw;
 }
 
 h2{
@@ -192,6 +194,15 @@ p {
     }
     .Map{
         width: 20% !important;
+    }
+    .AgentLabelBox{
+
+    
+        border: 3pt solid #00ff00;
+        border-radius: 25px;
+        text-align: center;
+        padding: 1vw;
+        background-color: black;
     }
 }
 
