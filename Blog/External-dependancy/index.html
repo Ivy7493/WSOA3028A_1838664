@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Insight into information geography">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,Fictional,Sureillance,blog,external dependancy,twitter">
+    <meta name="author" content="Ivan Von Staden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body>
+    
+<h1>External dependancy choice</h1>
+<section>
+    <p>For my external dependency, it was a choice between two plugins. The first being that of a google map and the other would be that of embedded tweets. This was a tough decision since we were only allowed to use a singular external dependency. Since the theme of the website and character was that of government surveillance. It makes sense for both plugins to be used.
+    </p>
+
+    <p> The google map was valid as part of the website has a “Live-tracking” feature which utilized javascript and a random number generator to append one of five unique Joburg map locations when the website was refreshed. This would give the user the illusion that the character Carter was moving around Joburg giving the character an additional layer of depth and creditability to that of the surveillance aesthetic. 
+    </p>
+
+    <p>
+        The tweet embedding was a valid option too, as a big thematic part of modern-day surveillance and government organization is that of social media surveillance. Twitter in recent years has become the platform of political debate and is used by figures of governmental power as a platform to communicate with the general public. Therefore when choosing a social media platform to embed into a site, twitter was the best fitting option.
+
+    </p>
+
+    <p>
+        So the decision was made to go with the embedded tweets are the chosen dependency. The reasoning for his was two reasons. Firstly the embedded tweets gave the surveillance a feel of reality that couldn’t be replaced by self stylized surveillance CSS. The embedded tweets linked by to a fake twitter account that I created with for the character. This was where I decided to do my character development. My character was developed through tweets and allowed one to see his slow descent into madness and then his jump back into reality. This gave the character, in my opinion, a tangible depth that I wouldn’t be able to replicate with a fake surveillance social media platform of my own design. The second reason was a more technical reason. Our site had to be able to scale to three unique form factors. This was not a problem for my site as everything scaled nicely but the embedded google maps. After numerous online research and different attempts, I was unsuccessful in getting the google map to scale at all. This broke the scaling of my website’s homepage, which is the core user experience of the website. So in order to fix this, I took screenshots of the map locations and instead of appending the actual embedded google map. I could embed a picture which was a lot easier to scale. This did degrade the immersion of the live-tacking feature as it makes it feel more static in nature and not as dynamic as it once was but this trade-off was seen as a necessary one.
+
+    </p>
+
+    <p>
+        The technical impact of this decision was that on slower internet connections the social media surveillance took a little longer to load. This was because each embedded tweet came with a script call to Twitter which would then call the required information of the tweet. This, when scaled by the many tweets embedded on the page itself, creates a little delay before all the tweets are loaded. This small price in performance was seen as lesser of the two evils when compared to the immersion-breaking scaling issue of the google map.
+
+    </p>
+</section>
+
+<article>
+    <section>
+        <nav>
+          
+                <button Class = "Back_Button" type = "button" id = "Back_Button" >Back</button>
+            
+        </nav>
+    </section>
+</article>
+
+<script type = "module" src = "../../js/Blog.js" async ></script>
+</body>

@@ -29,6 +29,8 @@ section{
 
     display: flex;
     justify-content: center;
+    justify-items: center;
+    width: 50%;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
