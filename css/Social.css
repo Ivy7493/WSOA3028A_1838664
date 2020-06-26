@@ -58,6 +58,10 @@ h1{
     margin-right: auto;
 }
 
+.Tweet{
+    padding: 1vw;
+}
+
 
 @media (min-width: 375px ) and (max-width: 991px){
 
